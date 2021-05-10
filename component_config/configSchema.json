@@ -1,0 +1,38 @@
+{
+    "type": "object",
+    "title": "extractor configuration",
+    "required": [
+        "account_sid",
+        "#auth_token",
+        "messaging_service_sid",
+        "output_log"
+    ],
+    "properties": {
+        "account_sid": {
+            "type": "string",
+            "title": "Account SID",
+            "description": "Can be found in the Console.",
+            "propertyOrder": 100
+        },
+        "#auth_token": {
+            "type": "string",
+            "title": "Authentication Token",
+            "description": "Can be found in the Console.",
+            "format": "password",
+            "propertyOrder": 200
+        },
+        "messaging_service_sid": {
+            "type": "string",
+            "title": "Messaging Service SID",
+            "description": "Can be created via [Messaging Services] in the Console.",
+            "propertyOrder": 300
+        },
+        "output_log": {
+            "type": "boolean",
+            "title": "Output Log",
+            "description": "Option to output a log of the list of messages sent out using this application.",
+            "propertyOrder": 400,
+            "default": false
+        }
+    }
+}
