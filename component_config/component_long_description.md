@@ -1,6 +1,4 @@
-Twilio is the world's leading cloud communication platform that enables you to engage customers across channels - SMS, voice, video, WhatsApp, email and more.
-
-This component allows users to send SMS messages programmatically to the phone numbers configured in the input table mapping. Send log will be available for the list of numbers this component is sending out.
+Twilio is the world's leading cloud communication platform that enables you to engage customers across channels - SMS, voice, video, WhatsApp, email and more. This component allows users to send SMS messages programmatically to the phone numbers configured in the input table mapping. Send log will be available for the list of numbers this component is sending out.
 
 ### Configurations
 
